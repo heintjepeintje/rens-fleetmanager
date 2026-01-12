@@ -2,12 +2,11 @@
 
 #include <string>
 #include <rclcpp/rclcpp.hpp>
-#include "fleetmanager_interfaces/msg/Error.hpp"
+#include <fleetmanager_interfaces/msg/error.hpp>
 
 namespace fleetmanager {
 
 	using fltmsg = fleetmanager_interfaces::msg;
-	using status = uint32_t;
 
 	enum struct status {
 		none = 0,
@@ -35,10 +34,10 @@ namespace fleetmanager {
 		void route_to(const location &location);	
 		void set_task(const std::string &description);
 
-		inline std::string name() const { return m_name; }
-		inline status status() const { return m_status; }
-		inline location location() const { return m_location; }
-		inline error error() const { return m_error; }
+		inline std::string get_name() const { return m_name; }
+		inline status get_status() const { return m_status; }
+		inline location get_location() const { return m_location; }
+		inline error get_error() const { return m_error; }
 
 	private:
 		std::string m_name;
