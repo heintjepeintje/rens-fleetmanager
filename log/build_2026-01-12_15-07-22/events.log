@@ -1,4 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.000298] (-) JobUnselected: {'identifier': 'fleetmanager'}
-[0.000337] (-) JobUnselected: {'identifier': 'fleetmanager_interfaces'}
-[0.000361] (-) EventReactorShutdown: {}
