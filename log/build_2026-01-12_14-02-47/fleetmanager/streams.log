@@ -1,0 +1,22 @@
+[0.008s] Invoking command in '/home/hein/dev/rens-fleetmanager/build/fleetmanager': CMAKE_PREFIX_PATH=/home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces:/home/hein/dev/rens-fleetmanager/install/fleetmanager:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hein/dev/rens-fleetmanager/build/fleetmanager -- -j16 -l16
+[0.051s] [100%] Built target rens_fleetmanager
+[0.057s] Invoked command in '/home/hein/dev/rens-fleetmanager/build/fleetmanager' returned '0': CMAKE_PREFIX_PATH=/home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces:/home/hein/dev/rens-fleetmanager/install/fleetmanager:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hein/dev/rens-fleetmanager/build/fleetmanager -- -j16 -l16
+[0.064s] Invoking command in '/home/hein/dev/rens-fleetmanager/build/fleetmanager': CMAKE_PREFIX_PATH=/home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces:/home/hein/dev/rens-fleetmanager/install/fleetmanager:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hein/dev/rens-fleetmanager/build/fleetmanager
+[0.069s] -- Install configuration: ""
+[0.069s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager/lib/fleetmanager/rens_fleetmanager
+[0.069s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager/share/ament_index/resource_index/package_run_dependencies/fleetmanager
+[0.069s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager/share/ament_index/resource_index/parent_prefix_path/fleetmanager
+[0.069s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager/share/fleetmanager/environment/ament_prefix_path.sh
+[0.069s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager/share/fleetmanager/environment/ament_prefix_path.dsv
+[0.069s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager/share/fleetmanager/environment/path.sh
+[0.069s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager/share/fleetmanager/environment/path.dsv
+[0.070s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager/share/fleetmanager/local_setup.bash
+[0.070s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager/share/fleetmanager/local_setup.sh
+[0.070s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager/share/fleetmanager/local_setup.zsh
+[0.070s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager/share/fleetmanager/local_setup.dsv
+[0.070s] -- Installing: /home/hein/dev/rens-fleetmanager/install/fleetmanager/share/fleetmanager/package.dsv
+[0.070s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager/share/ament_index/resource_index/packages/fleetmanager
+[0.070s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager/share/fleetmanager/cmake/fleetmanagerConfig.cmake
+[0.070s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager/share/fleetmanager/cmake/fleetmanagerConfig-version.cmake
+[0.070s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager/share/fleetmanager/package.xml
+[0.071s] Invoked command in '/home/hein/dev/rens-fleetmanager/build/fleetmanager' returned '0': CMAKE_PREFIX_PATH=/home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces:/home/hein/dev/rens-fleetmanager/install/fleetmanager:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hein/dev/rens-fleetmanager/build/fleetmanager

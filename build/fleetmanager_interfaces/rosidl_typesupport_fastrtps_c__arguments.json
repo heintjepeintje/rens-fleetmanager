@@ -1,0 +1,29 @@
+{
+  "package_name": "fleetmanager_interfaces",
+  "output_dir": "/home/hein/dev/rens-fleetmanager/build/fleetmanager_interfaces/rosidl_typesupport_fastrtps_c/fleetmanager_interfaces",
+  "template_dir": "/opt/ros/jazzy/share/rosidl_typesupport_fastrtps_c/resource",
+  "idl_tuples": [
+    "/home/hein/dev/rens-fleetmanager/build/fleetmanager_interfaces/rosidl_adapter/fleetmanager_interfaces:msg/Error.idl",
+    "/home/hein/dev/rens-fleetmanager/build/fleetmanager_interfaces/rosidl_adapter/fleetmanager_interfaces:msg/Location.idl",
+    "/home/hein/dev/rens-fleetmanager/build/fleetmanager_interfaces/rosidl_adapter/fleetmanager_interfaces:msg/MapRequest.idl",
+    "/home/hein/dev/rens-fleetmanager/build/fleetmanager_interfaces/rosidl_adapter/fleetmanager_interfaces:msg/Route.idl",
+    "/home/hein/dev/rens-fleetmanager/build/fleetmanager_interfaces/rosidl_adapter/fleetmanager_interfaces:msg/Status.idl",
+    "/home/hein/dev/rens-fleetmanager/build/fleetmanager_interfaces/rosidl_adapter/fleetmanager_interfaces:msg/Task.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/jazzy/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c",
+    "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_typesupport_fastrtps_c/__init__.py",
+    "/opt/ros/jazzy/share/rosidl_typesupport_fastrtps_c/resource/idl__rosidl_typesupport_fastrtps_c.h.em",
+    "/opt/ros/jazzy/share/rosidl_typesupport_fastrtps_c/resource/idl__type_support_c.cpp.em",
+    "/opt/ros/jazzy/share/rosidl_typesupport_fastrtps_c/resource/msg__rosidl_typesupport_fastrtps_c.h.em",
+    "/opt/ros/jazzy/share/rosidl_typesupport_fastrtps_c/resource/msg__type_support_c.cpp.em",
+    "/opt/ros/jazzy/share/rosidl_typesupport_fastrtps_c/resource/srv__rosidl_typesupport_fastrtps_c.h.em",
+    "/opt/ros/jazzy/share/rosidl_typesupport_fastrtps_c/resource/srv__type_support_c.cpp.em",
+    "/home/hein/dev/rens-fleetmanager/build/fleetmanager_interfaces/rosidl_adapter/fleetmanager_interfaces/msg/Error.idl",
+    "/home/hein/dev/rens-fleetmanager/build/fleetmanager_interfaces/rosidl_adapter/fleetmanager_interfaces/msg/Location.idl",
+    "/home/hein/dev/rens-fleetmanager/build/fleetmanager_interfaces/rosidl_adapter/fleetmanager_interfaces/msg/MapRequest.idl",
+    "/home/hein/dev/rens-fleetmanager/build/fleetmanager_interfaces/rosidl_adapter/fleetmanager_interfaces/msg/Route.idl",
+    "/home/hein/dev/rens-fleetmanager/build/fleetmanager_interfaces/rosidl_adapter/fleetmanager_interfaces/msg/Status.idl",
+    "/home/hein/dev/rens-fleetmanager/build/fleetmanager_interfaces/rosidl_adapter/fleetmanager_interfaces/msg/Task.idl"
+  ]
+}

@@ -1,0 +1,15 @@
+In file included from [01m[K/home/hein/dev/rens-fleetmanager/packages/fleetmanager/src/robot.cpp:1[m[K:
+[01m[K/home/hein/dev/rens-fleetmanager/packages/fleetmanager/src/./robot.hpp:5:10:[m[K [01;31m[Kfatal error: [m[Kfleetmanager_interfaces/msg/Error.hpp: No such file or directory
+    5 | #include [01;31m[K<fleetmanager_interfaces/msg/Error.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+In file included from [01m[K/home/hein/dev/rens-fleetmanager/packages/fleetmanager/src/main.cpp:4[m[K:
+[01m[K/home/hein/dev/rens-fleetmanager/packages/fleetmanager/src/./robot.hpp:5:10:[m[K [01;31m[Kfatal error: [m[Kfleetmanager_interfaces/msg/Error.hpp: No such file or directory
+    5 | #include [01;31m[K<fleetmanager_interfaces/msg/Error.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/rens_fleetmanager.dir/build.make:104: CMakeFiles/rens_fleetmanager.dir/src/robot.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/rens_fleetmanager.dir/build.make:90: CMakeFiles/rens_fleetmanager.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/rens_fleetmanager.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

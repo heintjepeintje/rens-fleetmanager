@@ -1,0 +1,56 @@
+{
+  "package_name": "fleetmanager_interfaces",
+  "output_dir": "/home/hein/dev/rens-fleetmanager/build/fleetmanager_interfaces/rosidl_generator_c/fleetmanager_interfaces",
+  "template_dir": "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource",
+  "idl_tuples": [
+    "/home/hein/dev/rens-fleetmanager/build/fleetmanager_interfaces/rosidl_adapter/fleetmanager_interfaces:msg/Error.idl",
+    "/home/hein/dev/rens-fleetmanager/build/fleetmanager_interfaces/rosidl_adapter/fleetmanager_interfaces:msg/Location.idl",
+    "/home/hein/dev/rens-fleetmanager/build/fleetmanager_interfaces/rosidl_adapter/fleetmanager_interfaces:msg/MapRequest.idl",
+    "/home/hein/dev/rens-fleetmanager/build/fleetmanager_interfaces/rosidl_adapter/fleetmanager_interfaces:msg/Route.idl",
+    "/home/hein/dev/rens-fleetmanager/build/fleetmanager_interfaces/rosidl_adapter/fleetmanager_interfaces:msg/Status.idl",
+    "/home/hein/dev/rens-fleetmanager/build/fleetmanager_interfaces/rosidl_adapter/fleetmanager_interfaces:msg/Task.idl"
+  ],
+  "ros_interface_files": [
+    "/home/hein/dev/rens-fleetmanager/packages/fleetmanager_interfaces/msg/Error.msg",
+    "/home/hein/dev/rens-fleetmanager/packages/fleetmanager_interfaces/msg/Location.msg",
+    "/home/hein/dev/rens-fleetmanager/packages/fleetmanager_interfaces/msg/MapRequest.msg",
+    "/home/hein/dev/rens-fleetmanager/packages/fleetmanager_interfaces/msg/Route.msg",
+    "/home/hein/dev/rens-fleetmanager/packages/fleetmanager_interfaces/msg/Status.msg",
+    "/home/hein/dev/rens-fleetmanager/packages/fleetmanager_interfaces/msg/Task.msg"
+  ],
+  "target_dependencies": [
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../../../lib/python3.12/site-packages/rosidl_generator_c/__init__.py",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/action__type_support.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/action__type_support.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/empty__description.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/full__description.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/idl.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/idl__description.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/idl__functions.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/idl__functions.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/idl__struct.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/idl__type_support.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/idl__type_support.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/msg__functions.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/msg__functions.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/msg__struct.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/srv__type_support.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
+    "/home/hein/dev/rens-fleetmanager/build/fleetmanager_interfaces/rosidl_adapter/fleetmanager_interfaces/msg/Error.idl",
+    "/home/hein/dev/rens-fleetmanager/build/fleetmanager_interfaces/rosidl_adapter/fleetmanager_interfaces/msg/Location.idl",
+    "/home/hein/dev/rens-fleetmanager/build/fleetmanager_interfaces/rosidl_adapter/fleetmanager_interfaces/msg/MapRequest.idl",
+    "/home/hein/dev/rens-fleetmanager/build/fleetmanager_interfaces/rosidl_adapter/fleetmanager_interfaces/msg/Route.idl",
+    "/home/hein/dev/rens-fleetmanager/build/fleetmanager_interfaces/rosidl_adapter/fleetmanager_interfaces/msg/Status.idl",
+    "/home/hein/dev/rens-fleetmanager/build/fleetmanager_interfaces/rosidl_adapter/fleetmanager_interfaces/msg/Task.idl"
+  ],
+  "type_description_tuples": [
+    "msg/Error.idl:/home/hein/dev/rens-fleetmanager/build/fleetmanager_interfaces/rosidl_generator_type_description/fleetmanager_interfaces/msg/Error.json",
+    "msg/Location.idl:/home/hein/dev/rens-fleetmanager/build/fleetmanager_interfaces/rosidl_generator_type_description/fleetmanager_interfaces/msg/Location.json",
+    "msg/MapRequest.idl:/home/hein/dev/rens-fleetmanager/build/fleetmanager_interfaces/rosidl_generator_type_description/fleetmanager_interfaces/msg/MapRequest.json",
+    "msg/Route.idl:/home/hein/dev/rens-fleetmanager/build/fleetmanager_interfaces/rosidl_generator_type_description/fleetmanager_interfaces/msg/Route.json",
+    "msg/Status.idl:/home/hein/dev/rens-fleetmanager/build/fleetmanager_interfaces/rosidl_generator_type_description/fleetmanager_interfaces/msg/Status.json",
+    "msg/Task.idl:/home/hein/dev/rens-fleetmanager/build/fleetmanager_interfaces/rosidl_generator_type_description/fleetmanager_interfaces/msg/Task.json"
+  ]
+}

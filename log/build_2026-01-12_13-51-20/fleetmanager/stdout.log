@@ -1,0 +1,21 @@
+[ 33%] [32mBuilding CXX object CMakeFiles/rens_fleetmanager.dir/src/fleetmanager.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable rens_fleetmanager[0m
+[100%] Built target rens_fleetmanager
+-- Install configuration: ""
+-- Installing: /home/hein/dev/rens-fleetmanager/install/fleetmanager/lib/fleetmanager/rens_fleetmanager
+-- Set non-toolchain portion of runtime path of "/home/hein/dev/rens-fleetmanager/install/fleetmanager/lib/fleetmanager/rens_fleetmanager" to ""
+-- Installing: /home/hein/dev/rens-fleetmanager/install/fleetmanager/share/ament_index/resource_index/package_run_dependencies/fleetmanager
+-- Installing: /home/hein/dev/rens-fleetmanager/install/fleetmanager/share/ament_index/resource_index/parent_prefix_path/fleetmanager
+-- Installing: /home/hein/dev/rens-fleetmanager/install/fleetmanager/share/fleetmanager/environment/ament_prefix_path.sh
+-- Installing: /home/hein/dev/rens-fleetmanager/install/fleetmanager/share/fleetmanager/environment/ament_prefix_path.dsv
+-- Installing: /home/hein/dev/rens-fleetmanager/install/fleetmanager/share/fleetmanager/environment/path.sh
+-- Installing: /home/hein/dev/rens-fleetmanager/install/fleetmanager/share/fleetmanager/environment/path.dsv
+-- Installing: /home/hein/dev/rens-fleetmanager/install/fleetmanager/share/fleetmanager/local_setup.bash
+-- Installing: /home/hein/dev/rens-fleetmanager/install/fleetmanager/share/fleetmanager/local_setup.sh
+-- Installing: /home/hein/dev/rens-fleetmanager/install/fleetmanager/share/fleetmanager/local_setup.zsh
+-- Installing: /home/hein/dev/rens-fleetmanager/install/fleetmanager/share/fleetmanager/local_setup.dsv
+-- Installing: /home/hein/dev/rens-fleetmanager/install/fleetmanager/share/fleetmanager/package.dsv
+-- Installing: /home/hein/dev/rens-fleetmanager/install/fleetmanager/share/ament_index/resource_index/packages/fleetmanager
+-- Installing: /home/hein/dev/rens-fleetmanager/install/fleetmanager/share/fleetmanager/cmake/fleetmanagerConfig.cmake
+-- Installing: /home/hein/dev/rens-fleetmanager/install/fleetmanager/share/fleetmanager/cmake/fleetmanagerConfig-version.cmake
+-- Installing: /home/hein/dev/rens-fleetmanager/install/fleetmanager/share/fleetmanager/package.xml

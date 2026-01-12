@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from fleetmanager_interfaces/msg/TaskMoveTo.msg
+// generated code does not contain a copyright notice
+
+
+module fleetmanager_interfaces {
+  module msg {
+    struct TaskMoveTo {
+      uint32 x;
+
+      uint32 y;
+    };
+  };
+};

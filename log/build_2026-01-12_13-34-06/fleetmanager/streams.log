@@ -1,0 +1,44 @@
+[0.005s] Invoking command in '/home/hein/dev/rens-fleetmanager/build/fleetmanager': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/hein/dev/rens-fleetmanager/packages/fleetmanager -DCMAKE_INSTALL_PREFIX=/home/hein/dev/rens-fleetmanager/install/fleetmanager
+[0.043s] -- The C compiler identification is GNU 13.3.0
+[0.077s] -- The CXX compiler identification is GNU 13.3.0
+[0.087s] -- Detecting C compiler ABI info
+[0.148s] -- Detecting C compiler ABI info - done
+[0.157s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.158s] -- Detecting C compile features
+[0.158s] -- Detecting C compile features - done
+[0.164s] -- Detecting CXX compiler ABI info
+[0.228s] -- Detecting CXX compiler ABI info - done
+[0.233s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.233s] -- Detecting CXX compile features
+[0.234s] -- Detecting CXX compile features - done
+[0.235s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.326s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.386s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.407s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.415s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.423s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.433s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.474s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.476s] -- Found rmw_cyclonedds_cpp: 2.2.3 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+[0.490s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.528s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.535s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.541s] [31mCMake Error at CMakeLists.txt:9 (find_package):
+[0.541s]   By not providing "Findfleetmanager_interfaces.cmake" in CMAKE_MODULE_PATH
+[0.541s]   this project has asked CMake to find a package configuration file provided
+[0.541s]   by "fleetmanager_interfaces", but CMake did not find one.
+[0.541s] 
+[0.541s]   Could not find a package configuration file provided by
+[0.541s]   "fleetmanager_interfaces" with any of the following names:
+[0.541s] 
+[0.541s]     fleetmanager_interfacesConfig.cmake
+[0.541s]     fleetmanager_interfaces-config.cmake
+[0.541s] 
+[0.541s]   Add the installation prefix of "fleetmanager_interfaces" to
+[0.541s]   CMAKE_PREFIX_PATH or set "fleetmanager_interfaces_DIR" to a directory
+[0.541s]   containing one of the above files.  If "fleetmanager_interfaces" provides a
+[0.542s]   separate development package or SDK, be sure it has been installed.
+[0.542s] 
+[0.542s] [0m
+[0.542s] -- Configuring incomplete, errors occurred!
+[0.545s] Invoked command in '/home/hein/dev/rens-fleetmanager/build/fleetmanager' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/hein/dev/rens-fleetmanager/packages/fleetmanager -DCMAKE_INSTALL_PREFIX=/home/hein/dev/rens-fleetmanager/install/fleetmanager

@@ -1,0 +1,4 @@
+source;share/fleetmanager_interfaces/local_setup.bash
+source;share/fleetmanager_interfaces/local_setup.dsv
+source;share/fleetmanager_interfaces/local_setup.sh
+source;share/fleetmanager_interfaces/local_setup.zsh

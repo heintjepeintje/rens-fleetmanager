@@ -1,0 +1,15 @@
+[01m[K/home/hein/dev/rens-fleetmanager/packages/fleetmanager/src/main.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K()[m[K’:
+[01m[K/home/hein/dev/rens-fleetmanager/packages/fleetmanager/src/main.cpp:6:21:[m[K [01;31m[Kerror: [m[Ktoo few arguments to function ‘[01m[Kvoid rclcpp::[01;32m[Kinit[m[K(int, const char* const*, const InitOptions&, SignalHandlerOptions)[m[K’
+    6 |         [01;31m[Krclcpp::init()[m[K;
+      |         [01;31m[K~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:25[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/hein/dev/rens-fleetmanager/packages/fleetmanager/src/./fleetmanager.hpp:3[m[K,
+                 from [01m[K/home/hein/dev/rens-fleetmanager/packages/fleetmanager/src/main.cpp:1[m[K:
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:75:1:[m[K [01;36m[Knote: [m[Kdeclared here
+   75 | [01;36m[Kinit[m[K(
+      | [01;36m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/rens_fleetmanager.dir/build.make:90: CMakeFiles/rens_fleetmanager.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/rens_fleetmanager.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

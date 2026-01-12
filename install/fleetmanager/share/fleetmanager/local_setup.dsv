@@ -1,0 +1,2 @@
+source;share/fleetmanager/environment/ament_prefix_path.sh
+source;share/fleetmanager/environment/path.sh

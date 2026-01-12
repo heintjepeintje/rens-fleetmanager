@@ -1,0 +1,239 @@
+[0.007s] Invoking command in '/home/hein/dev/rens-fleetmanager/build/fleetmanager_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hein/dev/rens-fleetmanager/build/fleetmanager_interfaces -- -j16 -l16
+[0.055s] [  1%] Built target fleetmanager_interfaces__rosidl_generator_type_description
+[0.061s] [  1%] Built target ament_cmake_python_copy_fleetmanager_interfaces
+[0.070s] [  2%] Built target fleetmanager_interfaces__cpp
+[0.076s] [ 25%] Built target fleetmanager_interfaces__rosidl_generator_c
+[0.092s] [ 35%] Built target fleetmanager_interfaces__rosidl_typesupport_c
+[0.092s] [ 44%] Built target fleetmanager_interfaces__rosidl_typesupport_introspection_c
+[0.096s] [ 54%] Built target fleetmanager_interfaces__rosidl_typesupport_introspection_cpp
+[0.097s] [ 63%] Built target fleetmanager_interfaces__rosidl_typesupport_cpp
+[0.098s] [ 72%] Built target fleetmanager_interfaces__rosidl_typesupport_fastrtps_c
+[0.098s] [ 82%] Built target fleetmanager_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.115s] [ 82%] Built target fleetmanager_interfaces
+[0.134s] [ 83%] Built target fleetmanager_interfaces__py
+[0.155s] [ 91%] Built target fleetmanager_interfaces__rosidl_generator_py
+[0.172s] [ 94%] Built target fleetmanager_interfaces_s__rosidl_typesupport_introspection_c
+[0.173s] [ 97%] Built target fleetmanager_interfaces_s__rosidl_typesupport_c
+[0.177s] [100%] Built target fleetmanager_interfaces_s__rosidl_typesupport_fastrtps_c
+[0.203s] running egg_info
+[0.215s] writing fleetmanager_interfaces.egg-info/PKG-INFO
+[0.215s] writing dependency_links to fleetmanager_interfaces.egg-info/dependency_links.txt
+[0.215s] writing top-level names to fleetmanager_interfaces.egg-info/top_level.txt
+[0.248s] reading manifest file 'fleetmanager_interfaces.egg-info/SOURCES.txt'
+[0.249s] writing manifest file 'fleetmanager_interfaces.egg-info/SOURCES.txt'
+[0.271s] [100%] Built target ament_cmake_python_build_fleetmanager_interfaces_egg
+[0.283s] Invoked command in '/home/hein/dev/rens-fleetmanager/build/fleetmanager_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hein/dev/rens-fleetmanager/build/fleetmanager_interfaces -- -j16 -l16
+[0.293s] Invoking command in '/home/hein/dev/rens-fleetmanager/build/fleetmanager_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hein/dev/rens-fleetmanager/build/fleetmanager_interfaces
+[0.299s] -- Install configuration: ""
+[0.299s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/share/ament_index/resource_index/rosidl_interfaces/fleetmanager_interfaces
+[0.299s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/share/fleetmanager_interfaces/msg/Error.json
+[0.299s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/share/fleetmanager_interfaces/msg/Location.json
+[0.300s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/share/fleetmanager_interfaces/msg/MapRequest.json
+[0.300s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/share/fleetmanager_interfaces/msg/Status.json
+[0.300s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/share/fleetmanager_interfaces/msg/TaskMoveTo.json
+[0.300s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces
+[0.300s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg
+[0.300s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/status.h
+[0.300s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/location.h
+[0.300s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/rosidl_generator_c__visibility_control.h
+[0.300s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail
+[0.300s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail/task_move_to__type_support.c
+[0.300s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail/task_move_to__description.c
+[0.300s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail/error__description.c
+[0.300s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail/location__description.c
+[0.300s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail/error__type_support.c
+[0.300s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail/map_request__description.c
+[0.300s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail/status__type_support.h
+[0.300s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail/task_move_to__struct.h
+[0.300s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail/location__type_support.c
+[0.300s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail/map_request__struct.h
+[0.300s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail/location__type_support.h
+[0.300s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail/status__type_support.c
+[0.300s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail/task_move_to__functions.h
+[0.300s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail/status__functions.h
+[0.300s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail/map_request__functions.h
+[0.300s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail/error__functions.h
+[0.300s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail/task_move_to__type_support.h
+[0.301s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail/map_request__functions.c
+[0.301s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail/map_request__type_support.c
+[0.301s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail/task_move_to__functions.c
+[0.301s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail/location__functions.c
+[0.301s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail/location__functions.h
+[0.301s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail/location__struct.h
+[0.301s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail/map_request__type_support.h
+[0.301s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail/error__type_support.h
+[0.301s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail/error__struct.h
+[0.301s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail/status__functions.c
+[0.301s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail/error__functions.c
+[0.301s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail/status__struct.h
+[0.301s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail/status__description.c
+[0.301s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/error.h
+[0.301s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/map_request.h
+[0.301s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/task_move_to.h
+[0.301s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/share/fleetmanager_interfaces/environment/library_path.sh
+[0.301s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/share/fleetmanager_interfaces/environment/library_path.dsv
+[0.301s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/lib/libfleetmanager_interfaces__rosidl_generator_c.so
+[0.301s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces
+[0.301s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg
+[0.301s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.301s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail
+[0.301s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail/task_move_to__rosidl_typesupport_fastrtps_c.h
+[0.301s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail/status__rosidl_typesupport_fastrtps_c.h
+[0.301s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail/map_request__rosidl_typesupport_fastrtps_c.h
+[0.301s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail/location__rosidl_typesupport_fastrtps_c.h
+[0.301s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail/error__rosidl_typesupport_fastrtps_c.h
+[0.302s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/lib/libfleetmanager_interfaces__rosidl_typesupport_fastrtps_c.so
+[0.302s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces
+[0.302s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg
+[0.302s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail
+[0.302s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail/task_move_to__type_support.c
+[0.302s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail/error__type_support.c
+[0.302s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail/task_move_to__rosidl_typesupport_introspection_c.h
+[0.302s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail/location__type_support.c
+[0.302s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail/map_request__rosidl_typesupport_introspection_c.h
+[0.302s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail/status__type_support.c
+[0.302s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail/error__rosidl_typesupport_introspection_c.h
+[0.302s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail/status__rosidl_typesupport_introspection_c.h
+[0.302s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail/map_request__type_support.c
+[0.302s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail/location__rosidl_typesupport_introspection_c.h
+[0.302s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.302s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/lib/libfleetmanager_interfaces__rosidl_typesupport_introspection_c.so
+[0.302s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/lib/libfleetmanager_interfaces__rosidl_typesupport_c.so
+[0.302s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces
+[0.302s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg
+[0.302s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/location.hpp
+[0.302s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/status.hpp
+[0.302s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/error.hpp
+[0.302s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/task_move_to.hpp
+[0.302s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail
+[0.302s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail/location__struct.hpp
+[0.302s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail/task_move_to__type_support.hpp
+[0.303s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail/task_move_to__traits.hpp
+[0.303s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail/status__struct.hpp
+[0.303s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail/error__type_support.hpp
+[0.303s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail/status__builder.hpp
+[0.303s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail/error__struct.hpp
+[0.303s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail/status__type_support.hpp
+[0.303s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail/location__type_support.hpp
+[0.303s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail/location__builder.hpp
+[0.303s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail/status__traits.hpp
+[0.303s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail/error__builder.hpp
+[0.303s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail/task_move_to__builder.hpp
+[0.303s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail/map_request__builder.hpp
+[0.303s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail/map_request__traits.hpp
+[0.303s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail/map_request__struct.hpp
+[0.303s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail/error__traits.hpp
+[0.303s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail/map_request__type_support.hpp
+[0.303s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail/task_move_to__struct.hpp
+[0.303s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail/location__traits.hpp
+[0.303s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.303s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/map_request.hpp
+[0.303s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces
+[0.303s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg
+[0.303s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail
+[0.303s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail/status__rosidl_typesupport_fastrtps_cpp.hpp
+[0.303s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail/dds_fastrtps
+[0.303s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail/task_move_to__rosidl_typesupport_fastrtps_cpp.hpp
+[0.303s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail/error__rosidl_typesupport_fastrtps_cpp.hpp
+[0.304s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail/location__rosidl_typesupport_fastrtps_cpp.hpp
+[0.304s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail/map_request__rosidl_typesupport_fastrtps_cpp.hpp
+[0.304s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.304s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/lib/libfleetmanager_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[0.304s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces
+[0.304s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg
+[0.304s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail
+[0.304s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail/status__rosidl_typesupport_introspection_cpp.hpp
+[0.304s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail/status__type_support.cpp
+[0.304s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail/error__type_support.cpp
+[0.304s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail/map_request__type_support.cpp
+[0.304s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail/map_request__rosidl_typesupport_introspection_cpp.hpp
+[0.304s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail/task_move_to__rosidl_typesupport_introspection_cpp.hpp
+[0.304s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail/error__rosidl_typesupport_introspection_cpp.hpp
+[0.304s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail/location__rosidl_typesupport_introspection_cpp.hpp
+[0.304s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail/location__type_support.cpp
+[0.304s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/include/fleetmanager_interfaces/fleetmanager_interfaces/msg/detail/task_move_to__type_support.cpp
+[0.304s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/lib/libfleetmanager_interfaces__rosidl_typesupport_introspection_cpp.so
+[0.304s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/lib/libfleetmanager_interfaces__rosidl_typesupport_cpp.so
+[0.304s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/share/fleetmanager_interfaces/environment/pythonpath.sh
+[0.304s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/share/fleetmanager_interfaces/environment/pythonpath.dsv
+[0.304s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/lib/python3.12/site-packages/fleetmanager_interfaces-0.0.0-py3.12.egg-info
+[0.304s] -- Installing: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/lib/python3.12/site-packages/fleetmanager_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[0.304s] -- Installing: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/lib/python3.12/site-packages/fleetmanager_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[0.304s] -- Installing: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/lib/python3.12/site-packages/fleetmanager_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[0.304s] -- Installing: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/lib/python3.12/site-packages/fleetmanager_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[0.304s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/lib/python3.12/site-packages/fleetmanager_interfaces
+[0.305s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/lib/python3.12/site-packages/fleetmanager_interfaces/_fleetmanager_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.305s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/lib/python3.12/site-packages/fleetmanager_interfaces/fleetmanager_interfaces_s__rosidl_typesupport_c.so
+[0.305s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/lib/python3.12/site-packages/fleetmanager_interfaces/_fleetmanager_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[0.305s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/lib/python3.12/site-packages/fleetmanager_interfaces/__init__.py
+[0.305s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/lib/python3.12/site-packages/fleetmanager_interfaces/msg
+[0.305s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/lib/python3.12/site-packages/fleetmanager_interfaces/msg/_location_s.c
+[0.305s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/lib/python3.12/site-packages/fleetmanager_interfaces/msg/_error_s.c
+[0.305s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/lib/python3.12/site-packages/fleetmanager_interfaces/msg/_task_move_to.py
+[0.305s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/lib/python3.12/site-packages/fleetmanager_interfaces/msg/_map_request.py
+[0.305s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/lib/python3.12/site-packages/fleetmanager_interfaces/msg/_status_s.c
+[0.305s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/lib/python3.12/site-packages/fleetmanager_interfaces/msg/_error.py
+[0.305s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/lib/python3.12/site-packages/fleetmanager_interfaces/msg/__init__.py
+[0.305s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/lib/python3.12/site-packages/fleetmanager_interfaces/msg/_task_move_to_s.c
+[0.305s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/lib/python3.12/site-packages/fleetmanager_interfaces/msg/_map_request_s.c
+[0.305s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/lib/python3.12/site-packages/fleetmanager_interfaces/msg/_location.py
+[0.305s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/lib/python3.12/site-packages/fleetmanager_interfaces/msg/_status.py
+[0.305s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/lib/python3.12/site-packages/fleetmanager_interfaces/fleetmanager_interfaces_s__rosidl_typesupport_introspection_c.so
+[0.305s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/lib/python3.12/site-packages/fleetmanager_interfaces/fleetmanager_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[0.305s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/lib/python3.12/site-packages/fleetmanager_interfaces/_fleetmanager_interfaces_s.ep.rosidl_typesupport_c.c
+[0.327s] Listing '/home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/lib/python3.12/site-packages/fleetmanager_interfaces'...
+[0.327s] Listing '/home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/lib/python3.12/site-packages/fleetmanager_interfaces/msg'...
+[0.331s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/lib/python3.12/site-packages/fleetmanager_interfaces/fleetmanager_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[0.331s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/lib/python3.12/site-packages/fleetmanager_interfaces/fleetmanager_interfaces_s__rosidl_typesupport_introspection_c.so
+[0.331s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/lib/python3.12/site-packages/fleetmanager_interfaces/fleetmanager_interfaces_s__rosidl_typesupport_c.so
+[0.331s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/lib/libfleetmanager_interfaces__rosidl_generator_py.so
+[0.331s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/share/fleetmanager_interfaces/msg/Error.idl
+[0.331s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/share/fleetmanager_interfaces/msg/Location.idl
+[0.331s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/share/fleetmanager_interfaces/msg/MapRequest.idl
+[0.332s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/share/fleetmanager_interfaces/msg/Status.idl
+[0.332s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/share/fleetmanager_interfaces/msg/TaskMoveTo.idl
+[0.332s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/share/fleetmanager_interfaces/msg/Error.msg
+[0.332s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/share/fleetmanager_interfaces/msg/Location.msg
+[0.332s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/share/fleetmanager_interfaces/msg/MapRequest.msg
+[0.332s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/share/fleetmanager_interfaces/msg/Status.msg
+[0.332s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/share/fleetmanager_interfaces/msg/TaskMoveTo.msg
+[0.332s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/share/ament_index/resource_index/package_run_dependencies/fleetmanager_interfaces
+[0.332s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/share/ament_index/resource_index/parent_prefix_path/fleetmanager_interfaces
+[0.332s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/share/fleetmanager_interfaces/environment/ament_prefix_path.sh
+[0.333s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/share/fleetmanager_interfaces/environment/ament_prefix_path.dsv
+[0.333s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/share/fleetmanager_interfaces/environment/path.sh
+[0.333s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/share/fleetmanager_interfaces/environment/path.dsv
+[0.333s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/share/fleetmanager_interfaces/local_setup.bash
+[0.333s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/share/fleetmanager_interfaces/local_setup.sh
+[0.333s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/share/fleetmanager_interfaces/local_setup.zsh
+[0.333s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/share/fleetmanager_interfaces/local_setup.dsv
+[0.333s] -- Installing: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/share/fleetmanager_interfaces/package.dsv
+[0.333s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/share/ament_index/resource_index/packages/fleetmanager_interfaces
+[0.333s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/share/fleetmanager_interfaces/cmake/export_fleetmanager_interfaces__rosidl_generator_cExport.cmake
+[0.334s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/share/fleetmanager_interfaces/cmake/export_fleetmanager_interfaces__rosidl_generator_cExport-noconfig.cmake
+[0.334s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/share/fleetmanager_interfaces/cmake/export_fleetmanager_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[0.334s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/share/fleetmanager_interfaces/cmake/export_fleetmanager_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.334s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/share/fleetmanager_interfaces/cmake/fleetmanager_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[0.334s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/share/fleetmanager_interfaces/cmake/fleetmanager_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.334s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/share/fleetmanager_interfaces/cmake/fleetmanager_interfaces__rosidl_typesupport_cExport.cmake
+[0.334s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/share/fleetmanager_interfaces/cmake/fleetmanager_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[0.334s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/share/fleetmanager_interfaces/cmake/export_fleetmanager_interfaces__rosidl_generator_cppExport.cmake
+[0.334s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/share/fleetmanager_interfaces/cmake/export_fleetmanager_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.334s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/share/fleetmanager_interfaces/cmake/export_fleetmanager_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.335s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/share/fleetmanager_interfaces/cmake/fleetmanager_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[0.335s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/share/fleetmanager_interfaces/cmake/fleetmanager_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.335s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/share/fleetmanager_interfaces/cmake/fleetmanager_interfaces__rosidl_typesupport_cppExport.cmake
+[0.335s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/share/fleetmanager_interfaces/cmake/fleetmanager_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[0.335s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/share/fleetmanager_interfaces/cmake/export_fleetmanager_interfaces__rosidl_generator_pyExport.cmake
+[0.335s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/share/fleetmanager_interfaces/cmake/export_fleetmanager_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[0.335s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/share/fleetmanager_interfaces/cmake/rosidl_cmake-extras.cmake
+[0.335s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/share/fleetmanager_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.335s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/share/fleetmanager_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[0.336s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/share/fleetmanager_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[0.336s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/share/fleetmanager_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.336s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/share/fleetmanager_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.336s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/share/fleetmanager_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.336s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/share/fleetmanager_interfaces/cmake/fleetmanager_interfacesConfig.cmake
+[0.336s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/share/fleetmanager_interfaces/cmake/fleetmanager_interfacesConfig-version.cmake
+[0.336s] -- Up-to-date: /home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/share/fleetmanager_interfaces/package.xml
+[0.337s] Invoked command in '/home/hein/dev/rens-fleetmanager/build/fleetmanager_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hein/dev/rens-fleetmanager/build/fleetmanager_interfaces

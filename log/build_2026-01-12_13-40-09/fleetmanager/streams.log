@@ -1,0 +1,50 @@
+[0.007s] Invoking command in '/home/hein/dev/rens-fleetmanager/build/fleetmanager': AMENT_PREFIX_PATH=/home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hein/dev/rens-fleetmanager/build/fleetmanager -- -j16 -l16
+[0.052s] [ 33%] [32mBuilding CXX object CMakeFiles/rens_fleetmanager.dir/src/main.cpp.o[0m
+[0.052s] [ 66%] [32mBuilding CXX object CMakeFiles/rens_fleetmanager.dir/src/fleetmanager.cpp.o[0m
+[1.162s] [01m[K/home/hein/dev/rens-fleetmanager/packages/fleetmanager/src/fleetmanager.cpp:[m[K In constructor ‘[01m[Kfleetmanager::fleetmanager::[01;32m[Kfleetmanager[m[K()[m[K’:
+[1.162s] [01m[K/home/hein/dev/rens-fleetmanager/packages/fleetmanager/src/fleetmanager.cpp:7:36:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::Node()[m[K’
+[1.162s]     7 |         fleetmanager::fleetmanager([01;31m[K)[m[K {
+[1.162s]       |                                    [01;31m[K^[m[K
+[1.162s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[1.162s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[1.162s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K,
+[1.162s]                  from [01m[K/home/hein/dev/rens-fleetmanager/packages/fleetmanager/src/./fleetmanager.hpp:3[m[K,
+[1.162s]                  from [01m[K/home/hein/dev/rens-fleetmanager/packages/fleetmanager/src/fleetmanager.cpp:1[m[K:
+[1.162s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:1629:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::[01;32m[KNode[m[K(const rclcpp::Node&, const std::string&)[m[K’
+[1.163s]  1629 |   [01;36m[KNode[m[K(
+[1.163s]       |   [01;36m[K^~~~[m[K
+[1.163s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:1629:3:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+[1.163s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:103:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::[01;32m[KNode[m[K(const std::string&, const std::string&, const rclcpp::NodeOptions&)[m[K’
+[1.163s]   103 |   explicit [01;36m[KNode[m[K(
+[1.163s]       |            [01;36m[K^~~~[m[K
+[1.163s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:103:12:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 0 provided
+[1.163s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:91:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::[01;32m[KNode[m[K(const std::string&, const rclcpp::NodeOptions&)[m[K’
+[1.163s]    91 |   explicit [01;36m[KNode[m[K(
+[1.163s]       |            [01;36m[K^~~~[m[K
+[1.163s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:91:12:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+[1.163s] [01m[K/home/hein/dev/rens-fleetmanager/packages/fleetmanager/src/fleetmanager.cpp:[m[K In member function ‘[01m[Kvoid fleetmanager::fleetmanager::[01;32m[Kupdate[m[K()[m[K’:
+[1.163s] [01m[K/home/hein/dev/rens-fleetmanager/packages/fleetmanager/src/fleetmanager.cpp:22:85:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kduration_cast<std::chrono::seconds>(std::chrono::_V2::steady_clock::time_point)[m[K’
+[1.163s]    22 |                 message.timepoint = [01;31m[Kstd::chrono::duration_cast<std::chrono::seconds>(std::chrono::steady_clock::now())[m[K;
+[1.163s]       |                                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.163s] In file included from [01m[K/usr/include/c++/13/chrono:41[m[K,
+[1.163s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:18[m[K,
+[1.163s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:25[m[K,
+[1.163s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+[1.163s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K:
+[1.163s] [01m[K/usr/include/c++/13/bits/chrono.h:273:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _ToDur, class _Rep, class _Period> constexpr std::chrono::__enable_if_is_duration<_ToDur> std::chrono::[01;32m[Kduration_cast[m[K(const duration<_Rep, _Period>&)[m[K’
+[1.163s]   273 |       [01;36m[Kduration_cast[m[K(const duration<_Rep, _Period>& __d)
+[1.163s]       |       [01;36m[K^~~~~~~~~~~~~[m[K
+[1.164s] [01m[K/usr/include/c++/13/bits/chrono.h:273:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.164s] [01m[K/home/hein/dev/rens-fleetmanager/packages/fleetmanager/src/fleetmanager.cpp:22:85:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::chrono::_V2::steady_clock::time_point[m[K’ {aka ‘[01m[Kstd::chrono::time_point<std::chrono::_V2::steady_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >[m[K’} is not derived from ‘[01m[Kconst std::chrono::duration<_Rep, _Period>[m[K’
+[1.164s]    22 |                 message.timepoint = [01;36m[Kstd::chrono::duration_cast<std::chrono::seconds>(std::chrono::steady_clock::now())[m[K;
+[1.164s]       |                                     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.168s] [01m[K/home/hein/dev/rens-fleetmanager/packages/fleetmanager/src/main.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K()[m[K’:
+[1.168s] [01m[K/home/hein/dev/rens-fleetmanager/packages/fleetmanager/src/main.cpp:13:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass fleetmanager::fleetmanager[m[K’ has no member named ‘[01m[Kstop[m[K’
+[1.168s]    13 |         fleetmanager.[01;31m[Kstop[m[K();
+[1.168s]       |                      [01;31m[K^~~~[m[K
+[1.489s] gmake[2]: *** [CMakeFiles/rens_fleetmanager.dir/build.make:90: CMakeFiles/rens_fleetmanager.dir/src/main.cpp.o] Error 1
+[1.489s] gmake[2]: *** Waiting for unfinished jobs....
+[1.650s] gmake[2]: *** [CMakeFiles/rens_fleetmanager.dir/build.make:76: CMakeFiles/rens_fleetmanager.dir/src/fleetmanager.cpp.o] Error 1
+[1.650s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/rens_fleetmanager.dir/all] Error 2
+[1.650s] gmake: *** [Makefile:146: all] Error 2
+[1.652s] Invoked command in '/home/hein/dev/rens-fleetmanager/build/fleetmanager' returned '2': AMENT_PREFIX_PATH=/home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hein/dev/rens-fleetmanager/install/fleetmanager_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hein/dev/rens-fleetmanager/build/fleetmanager -- -j16 -l16

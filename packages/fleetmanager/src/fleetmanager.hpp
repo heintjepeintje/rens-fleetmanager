@@ -1,20 +1,27 @@
 #pragma once
 
 #include <rclcpp/rclcpp.hpp>
+#include "fleetmanager_interfaces/msg/error.hpp"
 
 namespace fleetmanager {
 
-	class fleetmanager {
+	enum class error_severity {
+		none = 0,
+		info, warning, error, fatal
+	};
+
+	class fleetmanager : rclcpp::Node {
 	public:
 		fleetmanager();
 		~fleetmanager();
 
 		void start();
 		void update();
+		void stop();
+		bool should_exit() const;
 
 	private:
-		rclcpp::Publisher<std_msgs::msg::ByteMutliArray>::SharedPtr m_publisher;
-		rclcpp::Subscriber<std_msgs::msg::ByteMutliArray>::SharedPtr m_subscriber;
+		rclcpp::Publisher<fleetmanager_interfaces::msg::Error>::SharedPtr m_publisher;
 	};
 	
 }

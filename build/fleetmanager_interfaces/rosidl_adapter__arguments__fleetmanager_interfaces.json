@@ -1,0 +1,11 @@
+{
+  "package_name": "fleetmanager_interfaces",
+  "non_idl_tuples": [
+    "/home/hein/dev/rens-fleetmanager/packages/fleetmanager_interfaces:msg/Error.msg",
+    "/home/hein/dev/rens-fleetmanager/packages/fleetmanager_interfaces:msg/Location.msg",
+    "/home/hein/dev/rens-fleetmanager/packages/fleetmanager_interfaces:msg/MapRequest.msg",
+    "/home/hein/dev/rens-fleetmanager/packages/fleetmanager_interfaces:msg/Route.msg",
+    "/home/hein/dev/rens-fleetmanager/packages/fleetmanager_interfaces:msg/Status.msg",
+    "/home/hein/dev/rens-fleetmanager/packages/fleetmanager_interfaces:msg/Task.msg"
+  ]
+}
