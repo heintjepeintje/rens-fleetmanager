@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.8)
-project(fleetmanager)
+project(fleetmanager_client)
 
 add_compile_options(-Wall -Wextra -Wpedantic)
 
@@ -10,11 +10,13 @@ find_package(fleetmanager_interfaces REQUIRED)
 
 file(GLOB SOURCES "src/*.cpp")
 
-add_executable(rens_fleetmanager ${SOURCES})
-ament_target_dependencies(rens_fleetmanager rclcpp fleetmanager_interfaces) 
+set(PROJECT_EXEC_NAME ${PROJECT_NAME}_exec)
+
+add_executable(${PROJECT_EXEC_NAME} ${SOURCES})
+ament_target_dependencies(${PROJECT_EXEC_NAME} rclcpp fleetmanager_interfaces) 
 
 install(TARGETS
-	rens_fleetmanager 
+	${PROJECT_EXEC_NAME} 	
   DESTINATION lib/${PROJECT_NAME})
 
 ament_package()

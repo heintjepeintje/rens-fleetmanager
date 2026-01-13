@@ -2,36 +2,16 @@
 
 #include <string>
 #include <rclcpp/rclcpp.hpp>
-#include <fleetmanager_interfaces/msg/error.hpp>
+#include <fleetmanager_interfaces/common.hpp>
 
 namespace fleetmanager {
 
-	using fltmsg = fleetmanager_interfaces::msg;
-
-	enum struct status {
-		none = 0,
-		error = 1,
-		idle = 2,
-		busy = 3
-	};
-
-	struct location {
-		uint32_t x, y;
-		uint32_t level;
-	};
-
-	struct error {
-		uint32_t severity;
-		uint64_t timepoint;
-		std::string description;
-	};
-
-	class robot : rclcpp::Node {
+	class robot : public rclcpp::Node {
 	public:
 		explicit robot(const std::string &name);
 		~robot();
 
-		void route_to(const location &location);	
+		void set_destination(const location &location);	
 		void set_task(const std::string &description);
 
 		inline std::string get_name() const { return m_name; }

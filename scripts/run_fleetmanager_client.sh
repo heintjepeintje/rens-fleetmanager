@@ -1,0 +1,3 @@
+echo Running fleetmanager client...
+source install/local_setup.sh
+ros2 run fleetmanager_client fleetmanager_client_exec
