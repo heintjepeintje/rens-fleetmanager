@@ -15,11 +15,11 @@ int main(int argc, char **argv) {
 
 	rclcpp::init(argc, argv);
 
-	std::shared_ptr<fleetmanager::robot> robot1 = std::make_shared<fleetmanager::robot>("test");
+	std::shared_ptr<fleetmanager::robot> robot1 = std::make_shared<fleetmanager::robot>("robot28");
 
 	while (rclcpp::ok()) {
 		rclcpp::spin_some(std::dynamic_pointer_cast<rclcpp::Node>(robot1));
-		if (robot1->get_status() == fleetmanager::status::idle) {
+		if (robot1->is_available()) {
 			fleetmanager::location loc = { random_u32(0, 100), random_u32(0, 100), random_u32(0, 100) };
 
 			robot1->set_task("Move");
