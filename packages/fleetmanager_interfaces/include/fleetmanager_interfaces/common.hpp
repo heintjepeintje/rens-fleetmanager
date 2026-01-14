@@ -47,7 +47,7 @@ namespace fleetmanager {
 	}
 
 	inline std::string get_client_topic_name(const std::string &topic_name) {
-		return topic_name;
+		return robot_name + "/" + topic_name;
 	}
 
 	inline uint64_t get_current_timepoint() {

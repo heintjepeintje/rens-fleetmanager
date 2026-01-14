@@ -14,7 +14,6 @@ namespace fleetmanager {
 		});
 
 		m_task_sub = create_subscription<fltmsg::Task>(get_client_topic_name("task"), MESSAGE_QUEUE_LENGTH, [this](fltmsg::Task::SharedPtr message) {
-			RCLCPP_INFO(this->get_logger(), "Task: %s", message->description.c_str());
 			m_task = std::async(std::launch::async, [this](const std::string &task) {
 				std::lock_guard<std::mutex> lock(this->m_data_mutex);
 
