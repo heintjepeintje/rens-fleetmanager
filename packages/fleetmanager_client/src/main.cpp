@@ -16,7 +16,7 @@ int32_t handle_task(fleetmanager::fleetmanager_client &client, const std::string
 int main(int argc, char **argv) {
 	rclcpp::init(argc, argv);
 
-	g_client = std::make_shared<fleetmanager::fleetmanager_client>("test");
+	g_client = std::make_shared<fleetmanager::fleetmanager_client>("fleetmanager_client");
 
 	g_client->on_task(handle_task);
 	std::string current_task;
