@@ -12,6 +12,22 @@ Dit is de package die op de Raspberry Pi van de fleetmanager runt.
 ### Client
 Dit is de client die op elke robot runt.
 
+## Structuur
+```
+packages
+├─ fleetmanager_interfaces
+├─ fleetmanager_client
+├─ fleetmanager_server
+scripts
+├─ build_all.sh
+├─ rebuild_all.sh
+├─ run_fleetmanager.sh
+└─ run_fleetmanager_client.sh
+```
+
+Alle .sh bestanden in de map ```scripts``` zijn bash-scripts die worden gebruikt om het bouwen en het uitvoeren van de code makkelijker te maken.
+De folders in ```packages``` bevatten de code voor de desbetreffende ros-node.
+
 ## Benodigdheden
 ### Software
 * [ROS2 (Jazzy)](https://docs.ros.org/en/jazzy/index.html)
