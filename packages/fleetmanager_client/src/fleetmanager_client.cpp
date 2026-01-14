@@ -3,17 +3,17 @@
 namespace fleetmanager {
 
 	fleetmanager_client::fleetmanager_client(const std::string &name) : Node(name), m_name(name) {
-		m_location_pub = create_publisher<fltmsg::Location>(get_client_topic_name("location"), MESSAGE_QUEUE_LENGTH);	
-		m_error_pub = create_publisher<fltmsg::Error>(get_client_topic_name("error"), MESSAGE_QUEUE_LENGTH);
-		m_status_pub = create_publisher<fltmsg::Status>(get_client_topic_name("status"), MESSAGE_QUEUE_LENGTH);
+		m_location_pub = create_publisher<fltmsg::Location>(get_client_topic_name(name, "location"), MESSAGE_QUEUE_LENGTH);	
+		m_error_pub = create_publisher<fltmsg::Error>(get_client_topic_name(name, "error"), MESSAGE_QUEUE_LENGTH);
+		m_status_pub = create_publisher<fltmsg::Status>(get_client_topic_name(name, "status"), MESSAGE_QUEUE_LENGTH);
 
-		m_route_sub = create_subscription<fltmsg::Route>(get_client_topic_name("route"), MESSAGE_QUEUE_LENGTH, [this](fltmsg::Route::SharedPtr message) {
+		m_route_sub = create_subscription<fltmsg::Route>(get_client_topic_name(name, "route"), MESSAGE_QUEUE_LENGTH, [this](fltmsg::Route::SharedPtr message) {
 			this->m_destination.x = message->location.x;
 			this->m_destination.y = message->location.y;
 			this->m_destination.level = message->location.level;
 		});
 
-		m_task_sub = create_subscription<fltmsg::Task>(get_client_topic_name("task"), MESSAGE_QUEUE_LENGTH, [this](fltmsg::Task::SharedPtr message) {
+		m_task_sub = create_subscription<fltmsg::Task>(get_client_topic_name(name, "task"), MESSAGE_QUEUE_LENGTH, [this](fltmsg::Task::SharedPtr message) {
 			m_task = std::async(std::launch::async, [this](const std::string &task) {
 				std::lock_guard<std::mutex> lock(this->m_data_mutex);
 
@@ -32,7 +32,6 @@ namespace fleetmanager {
 
 			fltmsg::Status status_message;
 			status_message.status = static_cast<uint32_t>(robot_status);
-			RCLCPP_INFO(this->get_logger(), "Status: %u", static_cast<uint32_t>(robot_status));
 
 			m_status_pub->publish(status_message);
 
@@ -40,7 +39,6 @@ namespace fleetmanager {
 			location_message.x = m_location.x;
 			location_message.y = m_location.y;
 			location_message.level = m_location.level;
-			RCLCPP_INFO(this->get_logger(), "Location: %u, %u", m_location.x, m_location.y);
 
 			m_location_pub->publish(location_message);
 		});
