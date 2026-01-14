@@ -19,14 +19,10 @@ int main(int argc, char **argv) {
 
 	while (rclcpp::ok()) {
 		rclcpp::spin_some(std::dynamic_pointer_cast<rclcpp::Node>(robot1));
-		if (robot1->is_available()) {
-			fleetmanager::location loc = { random_u32(0, 100), random_u32(0, 100), random_u32(0, 100) };
+		fleetmanager::location loc = { random_u32(0, 100), random_u32(0, 100), random_u32(0, 100) };
 
-			robot1->set_task("Move");
-			robot1->set_destination(loc);
-		} else if (robot1->get_status() == fleetmanager::status::busy) {
-			sleep(random_u32(2, 7));
-		}
+		robot1->set_task("Move");
+		robot1->set_destination(loc);
 	}
 	
 
