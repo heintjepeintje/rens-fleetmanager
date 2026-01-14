@@ -10,7 +10,6 @@ uint32_t random_u32(uint32_t min, uint32_t max) {
 
 int32_t handle_task(fleetmanager::fleetmanager_client &client, const std::string &task) {
 	client.set_location(client.get_destination());
-	RCLCPP_INFO(
 	return 1;
 }
 
@@ -19,10 +18,10 @@ int main(int argc, char **argv) {
 
 	g_client = std::make_shared<fleetmanager::fleetmanager_client>("test");
 
-	client->on_task(handle_task);
+	g_client->on_task(handle_task);
 	std::string current_task;
 
-	rclcpp::spin(std::dynamic_pointer_cast<rclcpp::Node>(client));
+	rclcpp::spin(std::dynamic_pointer_cast<rclcpp::Node>(g_client));
 
 	rclcpp::shutdown();
 }
