@@ -4,7 +4,6 @@
 #include <chrono>
 #include <fleetmanager_interfaces/msg/error.hpp>
 #include <fleetmanager_interfaces/msg/location.hpp>
-#include <fleetmanager_interfaces/msg/map_request.hpp>
 #include <fleetmanager_interfaces/msg/route.hpp>
 #include <fleetmanager_interfaces/msg/status.hpp>
 #include <fleetmanager_interfaces/msg/task.hpp>
