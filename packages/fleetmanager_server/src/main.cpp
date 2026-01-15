@@ -17,14 +17,25 @@ int main(int argc, char **argv) {
 
 	std::shared_ptr<fleetmanager::robot> robot1 = std::make_shared<fleetmanager::robot>("robot28");
 
+	bool prev_available = true;
+
 	while (rclcpp::ok()) {
 		rclcpp::spin_some(std::dynamic_pointer_cast<rclcpp::Node>(robot1));
-		fleetmanager::location loc = { random_u32(0, 100), random_u32(0, 100), random_u32(0, 100) };
 
-		robot1->set_task("Move");
-		robot1->set_destination(loc);
+		bool available = robot1->is_available();
+
+		if (available && !prev_available) {
+			sleep(2);		
+		}
+
+		if (available) {
+			fleetmanager::location loc = { random_u32(0, 100), random_u32(0, 100), random_u32(0, 100) };
+			robot1->set_task("MoveTo");
+			robot1->set_destination(loc);
+		}
+
+		prev_available = available;
 	}
-	
 
 	rclcpp::shutdown();
 	return 0;

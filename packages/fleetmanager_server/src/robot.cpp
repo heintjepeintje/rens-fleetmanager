@@ -7,22 +7,34 @@ namespace fleetmanager {
 			this->m_location.x = message->x;
 			this->m_location.y = message->y;
 			this->m_location.level = message->level;
+
+			RCLCPP_INFO(this->get_logger(), "%s: received new destination: %u, %u, %u", this->m_name.c_str(), message->x, message->y, message->level);
 		});
 
 		m_error_sub = create_subscription<fltmsg::Error>(get_server_topic_name(name, "error"), 100, [this](fltmsg::Error::SharedPtr message) {
 			this->m_error.severity = static_cast<error_severity>(message->severity);
 			this->m_error.timepoint = message->timepoint;
 			this->m_error.description = message->description;
+
+			RCLCPP_INFO(this->get_logger(), "%s: received an error: %s", this->m_name.c_str(), message->description.c_str());
 		});
 
 		m_status_sub = create_subscription<fltmsg::Status>(get_server_topic_name(name, "status"), 10, [this](fltmsg::Status::SharedPtr message) {
+			status new_status = static_cast<status>(message->status);
+			if (new_status == status::error && this->m_status != status::error) {
+				RCLCPP_INFO(this->get_logger(), "%s: new status: \"STATUS_ERROR\"", this->m_name.c_str());
+			} else if (new_status == status::idle && this->m_status != status::idle) {
+				RCLCPP_INFO(this->get_logger(), "%s: new status: \"STATUS_IDLE\"", this->m_name.c_str());
+			} else if (new_status == status::busy && this->m_status != status::busy) {
+				RCLCPP_INFO(this->get_logger(), "%s: new status: \"STATUS_BUSY\"", this->m_name.c_str());
+			}
 			this->m_status = static_cast<status>(message->status);
 
 			if (this->m_state == state::awaiting_confirmation && m_status == status::busy) {
 				this->m_state = state::busy;
 			} else if (this->m_state == state::busy && m_status == status::idle) {
 				this->m_state = state::idle;
-			}
+			} 
 		});
 
 		m_route_pub = create_publisher<fltmsg::Route>(get_server_topic_name(name, "route"), 10);
@@ -32,7 +44,7 @@ namespace fleetmanager {
 		m_error = {};
 		m_location = { };
 
-		m_state = state::none;
+		m_state = state::idle;
 	}
 
 	robot::~robot() { }

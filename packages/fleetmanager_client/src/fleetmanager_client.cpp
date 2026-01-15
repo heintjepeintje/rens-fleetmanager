@@ -11,9 +11,11 @@ namespace fleetmanager {
 			this->m_destination.x = message->location.x;
 			this->m_destination.y = message->location.y;
 			this->m_destination.level = message->location.level;
+			RCLCPP_INFO(this->get_logger(), "Received new destination: %u, %u, %u", message->location.x, message->location.y, message->location.level);
 		});
 
 		m_task_sub = create_subscription<fltmsg::Task>(get_client_topic_name(name, "task"), MESSAGE_QUEUE_LENGTH, [this](fltmsg::Task::SharedPtr message) {
+			RCLCPP_INFO(this->get_logger(), "Received new task: %s", message->description.c_str());
 			m_task = std::async(std::launch::async, [this](const std::string &task) {
 				std::lock_guard<std::mutex> lock(this->m_data_mutex);
 
@@ -51,8 +53,15 @@ namespace fleetmanager {
 	void fleetmanager_client::set_status(const status &status) {
 		std::lock_guard<std::mutex> lock(m_status_mutex);
 		if (m_status == status) return;
+
+		if (status == status::error) {
+			RCLCPP_INFO(this->get_logger(), "New status: \"STATUS_ERROR\"");
+		} else if (status == status::idle) {
+			RCLCPP_INFO(this->get_logger(), "New status: \"STATUS_IDLE\"");
+		} else if (status == status::busy) {
+			RCLCPP_INFO(this->get_logger(), "New status: \"STATUS_BUSY\"");	
+		}
 		m_status = status;
-		RCLCPP_INFO(this->get_logger(), "New status: %u", static_cast<uint32_t>(status));
 
 		fltmsg::Status status_message;
 		status_message.status = static_cast<uint32_t>(status);
